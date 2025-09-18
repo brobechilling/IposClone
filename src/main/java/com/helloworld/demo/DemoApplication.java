@@ -15,6 +15,6 @@ public class DemoApplication {
 
 	@GetMapping("/")
 	public String home() {
-        return "Hello World - test deploy wtf";
+        return "Hello World - test deploy wtf - cicd works ???";
     }
 }
