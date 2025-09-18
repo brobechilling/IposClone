@@ -2,9 +2,7 @@ name: Spring Maven
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    branches: [ "dev", "dev-*" ]
 
 jobs:
   build:
