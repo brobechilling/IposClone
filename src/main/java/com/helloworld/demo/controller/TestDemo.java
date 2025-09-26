@@ -10,6 +10,6 @@ public class TestDemo {
     
     @GetMapping("/hello") 
     public String getHelloWorld() {
-        return "Hello world";
+        return "Hello world - World goodbye";
     }
 }
